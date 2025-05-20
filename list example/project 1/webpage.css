@@ -1,0 +1,63 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #305c68;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    color: #ffe;
+    text-shadow: 2px 2px #000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.list-box {
+    background: #fff;
+    color: #000;
+    padding: 20px 30px;
+    border-radius: 15px;
+    width: 200px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.fruits {
+    background: linear-gradient(to top right, #d4fc79, #96e6a1);
+}
+
+.vegetables {
+    background: linear-gradient(to top right, #a18cd1, #fbc2eb);
+}
+
+.groceries {
+    background: linear-gradient(to top right, #fbc2eb, #a6c1ee);
+}
+
+.list-box h2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+ol, ul {
+    text-align: left;
+    padding-left: 20px;
+}
+
+ul.square {
+    list-style-type: square;
+}
+
+ul.circle {
+    list-style-type: circle;
+}

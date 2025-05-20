@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./assets/IMG-3a51e0869b3b701533abe3be09dd8922-V.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-color: aqua;
+    background-position: center;
+}
